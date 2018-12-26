@@ -141,6 +141,10 @@ h2 {
     text-align: center;
 }
 
+.card {
+    margin-bottom: 5%;
+}
+
 .card-header {
     font-size: 1.5rem;
     font-weight: 600;
