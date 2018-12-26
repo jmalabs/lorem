@@ -11,6 +11,7 @@ body {
 #title {
     background-color: #00adb5;
     color: #fff;
+    text-align:center;
 }
 
 
@@ -62,10 +63,14 @@ h1 {
 /* Title image */
 
 .title-image {
-    width: 60%;
+    width: 80%;
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    transform: rotate(25deg);
 }
 
-.phone-logo{
+.phone-logo {
     text-align: center;
 }
 
@@ -75,6 +80,9 @@ h1 {
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
 }
 
 h3 {
@@ -96,6 +104,53 @@ p {
     margin-bottom: 1rem;
 }
 
-.icon:hover{
+.icon:hover {
     color: #08d9d6;
+}
+
+
+/* testimonials */
+
+
+#testimonials {
+
+    background-color: #00adb5;
+    color: #fff;
+    text-align: center;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+.testimonial-logo {
+    width: 8%;
+    border-radius: 100%;
+    margin: 0 3%;
+}
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #aedadd;
+}
+
+
+@media (max-width: 990px){
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+    }
 }
