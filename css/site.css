@@ -11,7 +11,7 @@ body {
 #title {
     background-color: #00adb5;
     color: #fff;
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -152,9 +152,28 @@ h2 {
 }
 
 
-@media (max-width: 990px){
+@media (max-width: 990px) {
     .title-image {
         transform: rotate(0deg);
         position: static;
     }
+}
+
+
+/* footer section */
+
+
+#footer {
+    padding: 2% 15%;
+    background-color: #00adb5;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.copyright {
+    color: #fff;
 }
