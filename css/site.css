@@ -1,31 +1,45 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
+}
 
+/* Heading section */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    color: grey;
+}
+
+
+/* container */
+.container-fluid {
+    padding: 3% 10%;
+}
+
+
+/* Title section */
+#title {
+    background-color: #00adb5;
+    color: #fff;
+    text-align: left;
 }
 
 .bg-site {
     background-color: #00adb5;
 }
-
-
-#title {
-    background-color: #00adb5;
-    color: #fff;
-    text-align: center;
-}
-
-
-h1 {
-    font-family: "Montserrat";
-    font-weight: 800;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-.container-fluid {
-    padding: 3% 10%;
-}
-
 
 .apple-logo,
 .playstore {
@@ -55,13 +69,11 @@ h1 {
 
 
 /* Download Buttons */
-
 .download-button {
     margin: 5% 3% 3% 0;
 }
 
 /* Title image */
-
 .title-image {
     width: 80%;
     position: absolute;
@@ -70,32 +82,15 @@ h1 {
     transform: rotate(25deg);
 }
 
-.phone-logo {
-    text-align: center;
-}
-
-
-
 /* Features */
-
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 2;
 }
 
-h3 {
-    font-weight: 600;
-}
-
 .feature-box {
-    text-align: center;
     padding: 5%;
-}
-
-p {
-    color: grey;
 }
 
 .icon {
@@ -110,35 +105,18 @@ p {
 
 
 /* testimonials */
-
-
 #testimonials {
 
     background-color: #00adb5;
     color: #fff;
-    text-align: center;
-
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
-h2 {
-    line-height: 1.5;
-    font-weight: 600;
-}
 
 
 .testimonial-logo {
     width: 8%;
     border-radius: 100%;
     margin: 0 3%;
-}
-
-#pricing {
-    padding: 7% 15%;
-    text-align: center;
 }
 
 .card {
@@ -161,13 +139,10 @@ h2 {
 
 
 /* footer section */
-
-
 #footer {
     padding: 2% 15%;
     background-color: #00adb5;
     color: #fff;
-    text-align: center;
 }
 
 .social-icon {
